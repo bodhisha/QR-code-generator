@@ -1,0 +1,48 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrbox {
+  padding-top: 100px;
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  padding: 1rem;
+  border: 4px solid orange;
+  border-radius: 0.5rem;
+}
+
+textarea {
+  height: 100px;
+  font-size: large;
+  outline: none;
+  padding: 1rem;
+  border: 4px solid orange;
+  border-radius: 0.5rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #000000;
+  border: none;
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: rgba(214, 142, 7, 0.808);
+}
