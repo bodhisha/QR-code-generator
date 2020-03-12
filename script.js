@@ -8,8 +8,10 @@ function validate() {
   var text = document.getElementById("text");
   if (text.value == "") {
     alert("Text Box cannot be empty");
+    document.getElementById("text").style.borderColor = "red";
     return false;
   } else {
+    document.getElementById("text").style.borderColor = "orange";
     return true;
   }
 }
